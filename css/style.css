@@ -1,0 +1,391 @@
+body {
+    background-color: rgba(209, 203, 89, 0.562);
+    color: rgb(104, 64, 0);
+    
+    font-family: 'Inconsolata';
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.hr {
+    border: 1px solid rgb(21, 0, 0);
+    margin: 100px 100px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    border-style: solid;
+    border-bottom: "2px";
+    border-color: rgb(104, 64, 0);
+    position: fixed;
+    background: rgb(209, 203, 89);
+}
+
+
+
+.logo {
+    display: flex;
+    align-self: center;
+    padding-left: 50px;
+    cursor: pointer;
+}
+
+.logo img {
+    width: 190px;
+}
+
+
+.pages {
+    padding-right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pages ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+.pages ul li {
+    margin: 0px 25px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.pages ul li a{
+    color: rgb(104, 64, 0);
+    text-decoration: none;
+}
+
+
+
+.pages ul button {
+    padding: 8px;
+    border-radius: 20px;
+    background: rgb(104, 64, 0);
+    color: rgba(255, 250, 153, 0.562);
+    cursor: pointer;
+    font-size: 15px;
+    
+}
+
+.pages ul button a{
+    color: rgba(255, 250, 153, 0.562);
+    text-decoration: none;
+}
+
+.main {
+    padding: 50px;
+
+}
+
+.first {
+    padding-top: 120px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 100px;
+}
+
+.first .left {
+    width: 100%;
+    align-self: center;
+    text-align: center;
+}
+
+.first .left h1 {
+    font-size: 3rem;
+}
+
+.left .name {
+    color: rgb(27, 0, 78);
+    font-family: Kode Mono;
+    font-size: 4rem;
+}
+
+.first .left h3 {
+    font-size: 2rem;
+}
+
+.first .right {
+    width: 100%;
+    align-self: center;
+    text-align: center;
+
+}
+
+.first .right img {
+    width: 500px;
+}
+
+.second {
+    height: min-content;
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    justify-content: space-between;
+}
+
+.about {
+    text-align: right;
+    font-size: 5.5rem;
+    margin-right: 70px;
+    margin-top: 100px;
+}
+
+.second .left {
+    width: 100%;
+}
+
+.second .left img {
+    width: 500px;
+    border-radius: 1000px;
+
+}
+
+.second .right {
+    width: 100%;
+}
+
+.second .right h2 {
+    font-size: 2rem;
+}
+
+.second .right p {
+    font-size: 1.2rem;
+}
+
+.second .right button {
+    padding: 8px 30px;
+    margin-top: 10px;
+    border-radius: 20px;
+    background: rgb(104, 64, 0);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.second .right button a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.data {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+
+.third {
+    height: auto;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+.services {
+    text-align: center;
+    padding-top: 100px;
+    font-size: 5.5rem;
+}
+
+
+.third .leftbox {
+    width: 100%;
+    border: 2px solid rgb(0, 0, 0);
+    margin-top: 50px;
+    height: fit-content;
+    border-radius: 50px 50px 50px 50px;
+    padding: 50px 20px;
+
+
+}
+
+.third .centerbox {
+    width: 100%;
+    border: 2px solid black;
+    margin-top: 50px;
+    height: fit-content;
+    border-radius: 50px 50px 50px 50px;
+    padding: 50px 20px;
+}
+
+.third .rightbox {
+    width: 100%;
+    border: 2px solid black;
+    margin-top: 50px;
+    height: fit-content;
+    border-radius: 50px 50px 50px 50px;
+    padding: 50px 20px;
+}
+
+.third p {
+    padding: 50px 20px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.forth {
+    height: auto;
+}
+
+.works {
+    text-align: center;
+    padding-top: 100px;
+    font-size: 5.5rem;
+}
+
+.forth .boxtop {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.forth .boxend {
+    display: flex;
+    gap: 20px;
+}
+
+.forth .workbox {
+    width: 500px;
+
+    margin-top: 50px;
+    height: fit-content;
+}
+
+.forth .workbox img {
+    width: 100%;
+    
+    border-radius: 10px;
+}
+
+.forth .workbox h5 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+
+
+
+.test{
+    text-align: center;
+    padding-top: 100px;
+    font-size: 5.5rem;
+}
+
+.testimonial .topreview{
+    display: flex;
+    justify-content: center;
+}
+
+.testimonial .downreview{
+    display: flex;
+    justify-content: center;
+}
+
+.testimonial .clreview{
+    padding: 20px 40px;
+    border: solid rgb(0, 0, 0) 2px;
+    margin: 20px 30px;
+    border-radius: 20px;
+    width: 330px;
+}
+.testimonial .clreview h4{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    font-size: large;
+    /* justify-content: space-between;*/
+}
+.testimonial img{
+    width: 50px;
+    margin-right: 5px;
+    border-radius: 100px;
+    background-color: rgb(255, 183, 40);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    width: 100%;
+    height: max-content;
+    background: rgb(209, 203, 89);
+    padding: 20px 0px;
+    color: rgb(104, 64, 0);
+    font-weight: bold;
+    border-top: rgb(104, 64, 0) 2px solid;
+}
+
+footer .footernav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+}
+
+footer .footernav a {
+    text-decoration: none;
+    color: rgb(104, 64, 0);
+    
+}
+
+footer .footernav img {
+    width: 40px;
+    cursor: pointer;
+}
+
+footer .footernav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+footer .footernav ul li {
+    margin: 0px 25px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+
+footer div p {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
